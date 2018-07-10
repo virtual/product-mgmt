@@ -121,7 +121,7 @@ app.get("/", function(req, res, next) {
   
     connection.query("SELECT * FROM user", function (err, result, fields) {
       if (err) throw err;
-      console.log(result);
+      res.json(result);
     });
   
   // connection.query('SELECT * FROM TABLES', function(err, rows, fields) {
