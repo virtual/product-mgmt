@@ -1,0 +1,32 @@
+{
+  "name": "client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "bootstrap": "^3.3.7",
+    "haversine": "^1.0.2",
+    "leaflet": "^1.2.0",
+    "mobx": "^3.3.1",
+    "mobx-react": "^4.3.4",
+    "password-hash": "^1.2.2",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "react-facebook": "^4.0.16",
+    "react-images-upload": "^1.1.1",
+    "react-leaflet": "^1.7.1",
+    "react-router-dom": "^4.2.2",
+    "react-scripts": "1.0.14",
+    "react-share-icons": "^1.1.2",
+    "react-social": "^1.10.0",
+    "reactstrap": "^4.8.0",
+    "semantic-ui-react": "^0.75.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000"
+}

@@ -1,0 +1,35 @@
+[{
+  "questions": [{
+      "question": "The bright bands of color around the Grand Prismatic Spring come from the different populations of thermophilic (heat-loving) microorganisms.  Which of these does not belong:  ",
+      "info": "",
+      "options": [
+        "pollen", "bacteria", "fungi", "archaea"
+      ],
+      "scores": [1, 0, 0, 0]
+    },
+    {
+      "question": "The Grand Prismatic Spring has a pH above 7, meaning it is 'basic' instead of 'acidic'.  Which one of these everyday items is least similar, in terms of pH, to Grand Prismatic: ",
+      "info": "",
+      "options": [
+        "black coffee", "baking soda", "toothpaste", "bleach"
+      ],
+      "scores": [1, 0, 0, 0]
+    },
+    {
+      "question": "In 1941, this iconic photographer was hired by the Department of the Interior, at a rate of $22.22 per day, to capture images of American landscapes- including the Grand Prismatic Spring: ",
+      "info": "",
+      "options": [
+        "Ansel Adams", "Richard Avedon", "Annie Leibovitz", "Andy Warhol"
+      ],
+      "scores": [1, 0, 0, 0]
+    },
+    {
+      "question": "The National Park Service states that Yellowstone is the only place in the U.S. where bison have continuously roamed since prehistoric times. But overhunting nearly led to the herd's extinction in the late 1800's when just this many animals remained: ",
+      "info": "",
+      "options": [
+        "23", "9", "176", "212"
+      ],
+      "scores": [1, 0, 0, 0]
+    }
+  ]
+}]
