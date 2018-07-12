@@ -7,7 +7,6 @@
 
 - `npm install` inside root
 - `npm install` inside client
-- `npm update` inside client to check for updates on Quiz module
 - `npm run build` inside client prior to pushing to master
 - add `.env` file inside root directory (this should never be committed to github) similar to:
 
