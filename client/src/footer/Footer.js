@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import Weather from '../weather/Weather';
 import {
   Container,
   Grid,
@@ -35,8 +34,7 @@ export default class Footer extends Component {
                 <Grid.Column width={5}>
                   <Header inverted as='h4'>
                   <a title="Weather at North Entrance" className="item" target="_blank" rel="noopener noreferrer" href='https://forecast.weather.gov/MapClick.php?zoneid=WYZ001'>Current Weather</a> 
-                  </Header>
-                  <Weather />
+                  </Header> 
                 </Grid.Column>
                 <Grid.Column width={5}>
                 <Image as={Link} to="/" alt='Yellowstone Odyssey' src='/img/logo-inverted.png' />        

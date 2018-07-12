@@ -33,10 +33,11 @@ var Navbar = observer(class Navbar extends Component {
       <div>
         <Menu icon stackable> 
           <Link className="item" to="/"> 
-        <Image alt='Yellowstone Odyssey' src='/img/logo-transparent.png' size='small'/>        
+          PM
+        {/* <Image alt='Product Management' src='/img/logo-transparent.png' size='small'/>         */}
           </Link>
           <Link className="item" to="/about">About</Link>
-          <Link className="item" to="/sights">Sights</Link>
+          <Link className="item" to="/products">Products</Link>
          
           <Menu.Menu position='right'>
             

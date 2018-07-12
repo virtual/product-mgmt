@@ -161,14 +161,39 @@ app.get("/", function(req, res, next) {
 //   }); 
 // });
 
-// app.get('/sights', function(req, res, next) {
-//   let query = 'SELECT * from sights';
-//   pool.query(query, function(err, sights, fields) {
-//     console.log(sights.rows)
-//     if (err) throw err;
-//       res.json(sights.rows); 
-//   });
-// });
+app.get('/v1/products', function(req, res, next) {
+  let query = 'SELECT * from products'; 
+  connection.query(query, function (err, result, fields) {
+    if (err) throw err;
+    res.json(result);
+  });
+});
+
+app.get("/v1/products/id/:id", function(req, res, next){
+  let query = 'SELECT * from products where id = ' + req.params.id; 
+  connection.query(query, function (err, result, fields) {
+    if (err) throw err;
+    res.json(result);
+  });
+})
+
+
+app.get("/v1/products/sku/:sku", function(req, res, next){
+  let query = 'SELECT * from products where SKU = ' + req.params.sku; 
+  connection.query(query, function (err, result, fields) {
+    if (err) throw err;
+    res.json(result);
+  });
+})
+
+app.get("/v1/products/upc/:upc", function(req, res, next){
+  let query = 'SELECT * from products where UPC = ' + req.params.upc; 
+  connection.query(query, function (err, result, fields) {
+    if (err) throw err;
+    res.json(result);
+  });
+
+})
 
 // app.get("/sight/:slug", function(req, res, next){
 //   Sight.find({
@@ -400,5 +425,5 @@ app.get("/", function(req, res, next) {
 var port = process.env.PORT || 5000;
 
 app.listen(port, function(){
-  console.log('Buffaloed app is listening on ' + port);
+  console.log('Project Management Tool is listening on ' + port);
 });
