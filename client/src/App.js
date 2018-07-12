@@ -7,8 +7,8 @@ import Navbar from './navbar/Navbar';
 import { BrowserRouter as Router, Route} from 'react-router-dom';
 import SignUp from './signup/SignUp';
 import { Container } from 'semantic-ui-react';
-import Sights from './sights/Sights'; 
-import Sight from './sights/Sight'; 
+import Products from './products/Products'; 
+import Product from './products/Product'; 
 import Admin from './dashboard/Admin'; 
 import Edit from './dashboard/Edit';
 import AddForm from './dashboard/AddForm'
@@ -62,9 +62,9 @@ class App extends Component {
           <div style={{display: 'flex', flexDirection: 'column', minHeight: '100vh'}}>
             <Navbar />
             <Container style={{flex: 1}}>
-            <Route exact path="/" render={()=> <Homepage /> }/>
-            <Route path='/sights' render={()=> <Sights /> }/>
-            <Route path='/sight/:slug' render={()=> <Sight getUser={this.getUser} /> }/>
+            <Route exact path="/" render={()=> <Homepage /> }/> 
+            <Route path='/products' render={()=> <Products /> }/>
+            {/* <Route path='/sight/:slug' render={()=> <Sight getUser={this.getUser} /> }/> */}
             <Route path="/login" render={()=> <Login /> }/>
             <Route path="/logout" render={()=> <Logout   /> }/>
             <Route path="/signup" render={()=> <SignUp /> }/>

@@ -6,7 +6,7 @@ body, html {
         rgba(255, 255, 255, 0.45)
       ),
       /* bottom, image */
-      url('/img/background-photo-1504123369993.jpg')
+      url('/img/background-optech.jpg')
       no-repeat center center fixed
       ;
 
@@ -17,7 +17,7 @@ body, html {
 }
 .footer {
   margin-top: 100px;
-  position:relative;  
+  position:relative;   
 }
 
 .contact {
